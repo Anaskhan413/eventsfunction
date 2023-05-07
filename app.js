@@ -136,3 +136,71 @@ function calculateAreaValue(width, height) {
 // var letterCount = countLetter(str, letter);
 
 // document.write(letterCount);
+
+
+//EVENTS LINK
+
+
+//QUESTION NO 1
+
+// function showAlert() {
+//     alert("You clicked the link!");
+//   }
+
+
+// QUESTION NO 2
+
+// function showMessage() {
+//     alert("You clicked the image!");
+//   }
+
+  // QUESTION NO 3
+
+
+  //  function deleteRow(button) {
+  //   var row = button.parentNode.parentNode;
+
+  // }
+
+
+  // QUESTION NO 4  
+
+  // function changeImage() {
+  //   document.getElementById("myImage").src = "new.jpg";
+  // }
+  
+
+  // function revertImage() {
+  //   document.getElementById("myImage").src = "original.jpg";
+  // }
+
+
+  //EVENTS LINK
+// QUESTION NO 1
+
+// function submitForm() {
+//   var name = document.getElementById("name").value;
+//   var email = document.getElementById("email").value;
+//   var password = document.getElementById("password").value;
+  
+//   var output = document.getElementById("output");
+//   output.innerHTML = `<p><strong>Name:</strong> ${name}</p>
+//                       <p><strong>Email:</strong> ${email}</p>
+//                       <p><strong>Password:</strong> ${password}</p>`;
+// }
+
+
+
+// function showDetails() {
+//   var details = document.getElementById("details");
+//   var button = document.querySelector(".item button");
+  
+//   if (details.style.display === "none") {
+//     details.style.display = "block";
+//     button.textContent = "Read less";
+//   } else {
+//     details.style.display = "none";
+//     button.textContent = "Read more";
+//   }
+// }
+

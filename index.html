@@ -7,7 +7,60 @@
     <title>Document</title>
 </head>
 <body>
+  <!-- <h1<a href="#" onclick="showAlert()">Click me</a></h1>
 
+    <img src="mobile1.jpg" class="image" onclick="showMessage()">
+  <img src="mobile2.jpg" class="image" onclick="showMessage()">
+  <img src="mobile3.jpg" class="image" onclick="showMessage()"> -->
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Action</th>
+    </tr>
+    <tr>
+      <td>John Doe</td>
+      <td>20</td>
+      <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>22</td>
+      <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </table>
+
+  <img id="myImage" src="original.jpg" onmouseover="changeImage()" onmouseout="revertImage()">
+
+
+  <h2>Signup Form</h2>
+  
+  <form id="signupForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    
+    <input type="button" value="Submit" onclick="submitForm()">
+  </form>
+  
+  <div id="output"></div>
+
+
+  <h2>Item Title</h2>
+  <p>Summary of the item details...</p>
+  <button onclick="showDetails()">Read more</button>
+  <div id="details" style="display: none;">
+    <p>Full details of the item...</p>
+    <p>More information...</p>
+  </div>
+</div>
 
 
 
